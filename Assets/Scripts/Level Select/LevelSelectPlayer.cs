@@ -8,6 +8,10 @@ public class LevelSelectPlayer : MonoBehaviour
 
     public float moveSpeed = 10f;
 
+    private bool levelLoading;
+
+    public LSManager theManager;
+
     void Start()
     {
         
@@ -17,7 +21,7 @@ public class LevelSelectPlayer : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, currentPoint.transform.position, moveSpeed * Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, currentPoint.transform.position) < 0.1f) //Mouvement dans le Level Select
+        if (Vector3.Distance(transform.position, currentPoint.transform.position) < 0.1f && !levelLoading) //Mouvement dans le Level Select
         {
             if (Input.GetAxisRaw("Horizontal") > 0.5f) //si le joueur appuie sur les touches "Horizontal droite" alors
             {
@@ -48,6 +52,16 @@ public class LevelSelectPlayer : MonoBehaviour
                 if (currentPoint.down != null) //Si la "Down" possible alors
                 {
                     SetNextPoint(currentPoint.down);
+                }
+            }
+
+            if (currentPoint.isLevel) //si la position du player est un niveau
+            {
+                if (Input.GetButtonDown("Jump"))
+                {
+                    levelLoading = true;
+
+                    theManager.LoadLevel();
                 }
             }
         }       
