@@ -55,7 +55,7 @@ public class LevelSelectPlayer : MonoBehaviour
                 }
             }
 
-            if (currentPoint.isLevel) //si la position du player est un niveau
+            if (currentPoint.isLevel && currentPoint.levelToLoad != "" && !currentPoint.isLocked) //si la position du player est un niveau ET dispose d'un niveau à charger ET n'est pas bloqué alors
             {
                 if (Input.GetButtonDown("Jump"))
                 {

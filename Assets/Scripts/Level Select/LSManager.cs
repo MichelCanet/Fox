@@ -24,7 +24,9 @@ public class LSManager : MonoBehaviour
 
     public IEnumerator LoadLevelCo()
     {
-        yield return new WaitForSeconds(1f);
+        LSUIController.instance.FadeToBlack();
+
+        yield return new WaitForSeconds((1f / LSUIController.instance.fadeSpeed) + 0.25f);
 
         SceneManager.LoadScene(thePlayer.currentPoint.levelToLoad);
     }
