@@ -57,6 +57,8 @@ public class LevelSelectPlayer : MonoBehaviour
 
             if (currentPoint.isLevel && currentPoint.levelToLoad != "" && !currentPoint.isLocked) //si la position du player est un niveau ET dispose d'un niveau à charger ET n'est pas bloqué alors
             {
+                LSUIController.instance.ShowInfo(currentPoint); //lance la fonction sur UI Controller
+
                 if (Input.GetButtonDown("Jump"))
                 {
                     levelLoading = true;
@@ -67,8 +69,10 @@ public class LevelSelectPlayer : MonoBehaviour
         }       
     }
 
-    public void SetNextPoint(MapPoint nextPoint)
+    public void SetNextPoint(MapPoint nextPoint) 
     {
         currentPoint = nextPoint;
+
+        LSUIController.instance.HideInfo(); //lance la fonction sur UI Controller
     }
 }
