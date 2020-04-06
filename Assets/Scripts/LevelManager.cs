@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
 
     public string levelToLoad;
 
+    public float timeInLevel;
+
     private void Awake()
     {
         instance = this; //permet d'avoir accès depuis les autres scripts
@@ -20,12 +22,12 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        
+        timeInLevel = 0; //sécurité pour que le niveau soit tjr 0
     }
 
     void Update()
     {
-        
+        timeInLevel += Time.deltaTime;
     }
 
     public void RespawnPlayer()
@@ -75,6 +77,10 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds((1f / UiControler.instance.fadeSpeed) + 0.25f);
 
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1); //permet de débloquer le niveau suivant à la fin d'un niveau
+
+        PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected); //permet de sauvegarder le nombre de gems que l'on a trouvé dans le niveau
+
+        PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel);
 
         SceneManager.LoadScene(levelToLoad);
     }

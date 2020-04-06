@@ -13,7 +13,7 @@ public class LSUIController : MonoBehaviour
 
     public GameObject levelInfoPanel;
 
-    public Text levelName;
+    public Text levelName, gemsFound, gemsTarget, bestTime, timeTarget; //ref au different element de UI
 
     private void Awake()
     {
@@ -57,9 +57,22 @@ public class LSUIController : MonoBehaviour
         shouldFadeToBlack = false;
     }
 
-    public void ShowInfo(MapPoint levelInfo) // affiche les infos du niveau
+    public void ShowInfo(MapPoint levelInfo) // affiche les infos du niveau, les infos se trouvent sur les Map points de niveau
     {
-        levelName.text = levelInfo.levelName;
+        levelName.text = levelInfo.levelName; //affiche le nom
+
+        gemsFound.text = "FOUND: " + levelInfo.gemsCollected;
+        gemsTarget.text = "IN LEVEL: " + levelInfo.totalGems;
+
+        timeTarget.text = "TARGET: " + levelInfo.targetTime + "s";
+        if (levelInfo.bestTime == 0)
+        {
+            bestTime.text = "BEST: ---";
+        }
+        else
+        {
+            bestTime.text = "BEST: " + levelInfo.bestTime.ToString("F2") + "s"; //F2 = deux décimal après le virtuge
+        }
 
         levelInfoPanel.SetActive(true);
     }
