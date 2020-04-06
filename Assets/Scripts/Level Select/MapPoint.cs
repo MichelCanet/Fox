@@ -12,6 +12,8 @@ public class MapPoint : MonoBehaviour
     public int gemsCollected, totalGems;
     public float bestTime, targetTime;
 
+    public GameObject gemBadge, timeBadge;
+
     void Start()
     {
         if (isLevel && levelToLoad !=null)
@@ -24,6 +26,16 @@ public class MapPoint : MonoBehaviour
             if (PlayerPrefs.HasKey(levelToLoad + "_time"))
             {
                 bestTime = PlayerPrefs.GetFloat(levelToLoad + "_time");
+            }
+
+            if (gemsCollected >= totalGems && gemsCollected != 0)
+            {
+                gemBadge.SetActive(true);
+            }
+
+            if (bestTime <= targetTime && bestTime != 0)
+            {
+                timeBadge.SetActive(true);
             }
 
             isLocked = true;

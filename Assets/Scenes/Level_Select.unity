@@ -601,6 +601,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 255393602}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &401904746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 830985775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &409735703
 GameObject:
   m_ObjectHideFlags: 0
@@ -12097,6 +12103,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 444317447}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &452318253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8968802172193894781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &627152513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1451466947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &628189644
 GameObject:
   m_ObjectHideFlags: 0
@@ -13302,6 +13320,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 681341748}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &718467707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 830985775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &743182213
 GameObject:
   m_ObjectHideFlags: 0
@@ -13385,6 +13409,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8968802172193894781}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &815626848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1049551295}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &830985775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13422,6 +13452,16 @@ PrefabInstance:
       propertyPath: levelName
       value: '6: Bla Bla 6'
       objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 718467707}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 401904746}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13541,6 +13581,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &890366028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1607142563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &896601729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1865401001}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &969232988
 GameObject:
   m_ObjectHideFlags: 0
@@ -13660,6 +13712,16 @@ PrefabInstance:
       propertyPath: levelName
       value: '4: Bla bla 4'
       objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 1784621844}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 815626848}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13939,6 +14001,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339430789}
   m_CullTransparentMesh: 0
+--- !u!1 &1396686365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1451466947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1396891500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14358,8 +14426,18 @@ PrefabInstance:
     - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: levelName
-      value: 3; Bla Bla 3
+      value: '3: Bla Bla 3'
       objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 1396686365}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 627152513}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14556,6 +14634,16 @@ PrefabInstance:
       propertyPath: levelName
       value: '5: Bla bla 5'
       objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 890366028}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 2015182404}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14849,6 +14937,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1728488195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8968802172193894781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1779489210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14945,6 +15039,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
     type: 3}
   m_PrefabInstance: {fileID: 1779489210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1784621844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1049551295}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1851831036
 GameObject:
@@ -15062,6 +15162,16 @@ PrefabInstance:
       propertyPath: levelName
       value: '2: Hight Jump'
       objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 896601729}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 2089031233}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15316,6 +15426,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2008549262}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2015182404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1607142563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2089031233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1865401001}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2123631333
 GameObject:
   m_ObjectHideFlags: 0
@@ -15454,7 +15576,7 @@ PrefabInstance:
     - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: targetTime
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
@@ -15466,6 +15588,21 @@ PrefabInstance:
       propertyPath: bestTime
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 452318253}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 1728488195}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15535,7 +15672,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 8968802172193894781}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
