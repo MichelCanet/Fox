@@ -78,9 +78,29 @@ public class LevelManager : MonoBehaviour
 
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1); //permet de débloquer le niveau suivant à la fin d'un niveau
 
-        PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected); //permet de sauvegarder le nombre de gems que l'on a trouvé dans le niveau
+        if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_gems"))
+        {
+            if (gemsCollected > PlayerPrefs.GetInt(SceneManager.GetActiveScene().name + "_gems")) //Sécurité pour tjr avoir le nombre max de gems
+            {
+                PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected); //permet de sauvegarder le nombre de gems que l'on a trouvé dans le niveau
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected); //permet de sauvegarder le nombre de gems que l'on a trouvé dans le niveau
+        }
 
-        PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel);
+        if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_time"))
+        {
+            if (timeInLevel < PlayerPrefs.GetFloat(SceneManager.GetActiveScene().name + "_time")) //Sécurité pour tjr sauvegarder le meilleur temps
+            {
+                PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel); //permet de sauvegarder le temps total pour faire le Level
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel); //permet de sauvegarder le temps total pour faire le Level
+        }
 
         SceneManager.LoadScene(levelToLoad);
     }
