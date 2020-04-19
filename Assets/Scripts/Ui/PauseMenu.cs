@@ -44,6 +44,8 @@ public class PauseMenu : MonoBehaviour
     }
     public void LevelSelect()
     {
+        PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name);
+
         SceneManager.LoadScene(levelSelect); // retour à la selection des niveaux
         Time.timeScale = 1f; // sécu pour ne pas load un niveau avec la pause en activé
     }

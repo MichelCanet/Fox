@@ -78,6 +78,8 @@ public class LevelManager : MonoBehaviour
 
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1); //permet de débloquer le niveau suivant à la fin d'un niveau
 
+        PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name); //permet d'avoir le nom du level ou on se trouve pour "être sur la bonne case" dans le level select
+
         if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_gems"))
         {
             if (gemsCollected > PlayerPrefs.GetInt(SceneManager.GetActiveScene().name + "_gems")) //Sécurité pour tjr avoir le nombre max de gems

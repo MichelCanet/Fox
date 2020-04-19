@@ -7,9 +7,23 @@ public class LSManager : MonoBehaviour
 {
     public LevelSelectPlayer thePlayer;
 
+    private MapPoint[] allPoints;
+
     void Start()
     {
-        
+        allPoints = FindObjectsOfType<MapPoint>();
+
+        if (PlayerPrefs.HasKey("CurrentLevel"))
+        {
+            foreach (MapPoint point in allPoints)
+            {
+                if (point.levelToLoad == PlayerPrefs.GetString("CurrentLevel"))
+                {
+                    thePlayer.transform.position = point.transform.position; //le joueur sera tjr sur "la case" du niveau qu'il vient de faire
+                    thePlayer.currentPoint = point;
+                }
+            }
+        }
     }
 
     void Update()
