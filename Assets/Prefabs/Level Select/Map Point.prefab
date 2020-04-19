@@ -67,8 +67,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -565376547
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: 6030100155538583459, guid: 14b95d8392b37704e9b4c68d004b2b78,
     type: 3}
@@ -149,8 +149,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -565376547
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: -5996489778342099798, guid: 14b95d8392b37704e9b4c68d004b2b78,
     type: 3}
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8968802172546434353}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -213,12 +213,14 @@ MonoBehaviour:
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
-  isLevel: 0
+  isLevel: 1
   isLocked: 0
-  levelToLoad: 
-  levelToCheck: 
-  levelName: 
+  levelToLoad: Level_01
+  levelToCheck: Level_01
+  levelName: '1: The Begining'
   gemsCollected: 0
-  totalGems: 0
+  totalGems: 14
   bestTime: 0
-  targetTime: 0
+  targetTime: 25
+  gemBadge: {fileID: 1989488927346964437}
+  timeBadge: {fileID: 6796086640224799275}

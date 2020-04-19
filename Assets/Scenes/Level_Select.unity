@@ -138,6 +138,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 1661171370}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -207,7 +247,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 83732869}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -312,6 +352,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 8968802172193894782}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -381,7 +461,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 96878069}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -521,6 +601,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1451466948}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -590,7 +710,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 255393602}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -12023,6 +12143,46 @@ PrefabInstance:
       propertyPath: up
       value: 
       objectReference: {fileID: 656601263}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12092,7 +12252,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 444317447}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -12102,12 +12262,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
     type: 3}
   m_PrefabInstance: {fileID: 444317447}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &452318253 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1989488927346964437, guid: 0b03bbba16467394d921a6fda393dbb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 8968802172193894781}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &627152513 stripped
 GameObject:
@@ -12231,6 +12385,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1049551296}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12300,7 +12494,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 656601262}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -13240,6 +13434,46 @@ PrefabInstance:
       propertyPath: left
       value: 
       objectReference: {fileID: 1865401002}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13309,7 +13543,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 681341748}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -13537,7 +13771,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 830985775}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -13791,7 +14025,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1049551295}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -14024,6 +14258,46 @@ PrefabInstance:
       propertyPath: up
       value: 
       objectReference: {fileID: 830985777}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14093,7 +14367,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1396891500}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -14507,7 +14781,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1451466947}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -14713,7 +14987,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1607142563}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -14746,6 +15020,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1779489211}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14815,7 +15129,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1661171369}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -14937,12 +15251,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1728488195 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6796086640224799275, guid: 0b03bbba16467394d921a6fda393dbb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 8968802172193894781}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1779489210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14960,6 +15268,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 2008549263}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15029,7 +15377,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1779489210}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -15241,7 +15589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1865401001}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -15346,6 +15694,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1607142564}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: gemBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: timeBadge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15415,7 +15803,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2008549262}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62953471ed670d4fb918deef6739567, type: 3}
   m_Name: 
@@ -15545,64 +15933,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
-      propertyPath: isLevel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
       propertyPath: up
       value: 
       objectReference: {fileID: 96878070}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: levelToLoad
-      value: Level_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: levelToCheck
-      value: Level_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: levelName
-      value: '1: The Begining'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: totalGems
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: targetTime
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: gemsCollected
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: bestTime
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: gemBadge
-      value: 
-      objectReference: {fileID: 452318253}
-    - target: {fileID: 8850754131173552932, guid: 0b03bbba16467394d921a6fda393dbb3,
-        type: 3}
-      propertyPath: timeBadge
-      value: 
-      objectReference: {fileID: 1728488195}
     - target: {fileID: 8968802172546434352, guid: 0b03bbba16467394d921a6fda393dbb3,
         type: 3}
       propertyPath: m_LocalPosition.x
